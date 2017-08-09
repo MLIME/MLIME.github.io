@@ -17,8 +17,8 @@ title: Grupo de Estudos de Machine Learning do IME-USP
 #email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   MLIME é um grupo de estudos de pesquisadores (Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in...)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/site" # the subpath of your site, e.g. /blog
+url: "https://mlime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username: MLIME
 
