@@ -4,13 +4,13 @@ title: Sobre
 permalink: /about/
 ---
 
-O Grupo de Estudos em Machine Learning do IME-USP é um grupo de pesquisadores dedicado a (Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in...)
+{{ site.description}}
 
 <h3>Professores Coordenadores</h3>
 {% for teacher in site.members %}
 {% if teacher.kind == "teacher" %}
 
-<p> {{teacher.name}} </p>
+<p style="margin-bottom: 0"> {{teacher.name}} </p>
 <p> {{teacher.occupation}} em {{teacher.place}} </p>
 
 {% endif %}
@@ -21,7 +21,7 @@ O Grupo de Estudos em Machine Learning do IME-USP é um grupo de pesquisadores d
 {% for student in site.members %}
 {% if student.kind == "aluno" %}
 
-<p> {{student.name}} </p>
+<p style="margin-bottom: 0"> {{student.name}} </p>
 <p> {{student.occupation}} em {{student.place}} </p>
 
 {% endif %}

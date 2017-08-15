@@ -15,9 +15,10 @@ layout: default
 
 <div class="home">
   <div class="home-description">  {{ site.description }} </div>
-  <h1 class="page-diff-heading">Novidades</h1>
+  <h1 class="page-diff-heading">Projetos</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign prlist = site.projects | sort: 'date' %}
+    {% for post in site.projects reversed %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
