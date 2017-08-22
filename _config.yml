@@ -17,7 +17,7 @@ title: Grupo de Estudos de Machine Learning do IME-USP
 #email: your-email@example.com
 description: > # this means to ignore newlines until "baseurl:"
   MLIME é um grupo de estudos avançados em Machine Learning composto por alunos de graduação, pós-graduação, e professores que trabalham e pesquisam na área. Busca fomentar a pesquisa, produção científica e divulgação da área. Encontros acontecem às terças, 14h, na sala de reuniões do Bloco C do IME
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mlime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 github_username: MLIME
