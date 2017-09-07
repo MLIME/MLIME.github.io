@@ -1,8 +1,5 @@
 ---
 name: Estudante de Exemplo
 kind: aluno
-occupation: Estudante
-place: IME-USP
-gituser: Abello966
-
+interests: Representation Learning, Computer Vision
 ---
