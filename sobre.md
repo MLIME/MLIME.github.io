@@ -36,9 +36,9 @@ permalink: /about/
 
 <div class="member">
 {% if teacher.image %}
-    <img class="memberimage" src="{{site.baseurl}}images/{{teacher.image}}">
+    <img class="memberimage" src="/images/{{teacher.image}}">
 {% else %}
-    <img class="memberimage" src="{{site.baseurl}}images/noimage.png">
+    <img class="memberimage" src="/images/noimage.png">
 {% endif %}
 <p style="margin-bottom: 0"> {{teacher.name}} </p>
 <p> {{teacher.interests}} </p> 
@@ -54,9 +54,9 @@ permalink: /about/
 {% if student.kind == "aluno" %}
 <div class="member">
 {% if student.image %}
-    <img class="memberimage" src="{{site.baseurl}}images/{{student.image}}">
+    <img class="memberimage" src="/images/{{student.image}}">
 {% else %}
-    <img class="memberimage" src="{{site.baseurl}}images/noimage.png">
+    <img class="memberimage" src="/images/noimage.png">
 {% endif %}
 <p style="margin-bottom: 0"> {{student.name}} </p>
 <p> {{student.interests}} </p>
